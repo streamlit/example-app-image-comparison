@@ -4,7 +4,7 @@ import cv2
 
 # set page config
 st.set_page_config(
-    page_title="James Webb Space Telescope vs Hubble Telescope Images","🔭",layout="centered")
+    page_title="James Webb Space Telescope vs Hubble Telescope Images","🔭")
 
 
 st.image(
