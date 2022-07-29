@@ -1,7 +1,7 @@
 
 # 🔭 Example app image comparison
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://image-comparison.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://webb-compare.streamlitapp.com/)
 
 Here's a reproduction of the fantastic [WebbCompare](https://github.com/JohnEdChristensen/WebbCompare) app by John Christensen!
 
