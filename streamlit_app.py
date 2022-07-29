@@ -4,9 +4,8 @@ import cv2
 
 # set page config
 st.set_page_config(
-    page_title="James Webb Space Telescope vs Hubble Telescope Images",
-    layout="centered",
-)
+    page_title="James Webb Space Telescope vs Hubble Telescope Images","🔭",layout="centered")
+
 
 st.image(
     "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/telescope_1f52d.png",
@@ -20,8 +19,6 @@ st.write("A simple tool to compare Webb's new images to Hubble!")
 st.write("")
 
 st.markdown("### Southern Nebula")
-
-# render image-comparison
 image_comparison(
     img1="https://www.webbcompare.com/img/hubble/southern_nebula_700.jpg",
     img2="https://www.webbcompare.com/img/webb/southern_nebula_700.jpg",
@@ -31,11 +28,27 @@ image_comparison(
 
 
 st.markdown("### Galaxy Cluster SMACS 0723")
-
-# render image-comparison
 image_comparison(
     img1="https://www.webbcompare.com/img/hubble/deep_field_700.jpg",
     img2="https://www.webbcompare.com/img/webb/deep_field_700.jpg",
     label1="Hubble",
     label2="Webb",
 )
+
+st.markdown("### Carina Nebula")
+image_comparison(
+    img1="https://www.webbcompare.com/img/hubble/carina_2800.png",
+    img2="https://www.webbcompare.com/img/webb/carina_2800.jpg",
+    label1="Hubble",
+    label2="Webb",
+)
+
+st.markdown("### Stephan's Quintet")
+image_comparison(
+    img1="https://www.webbcompare.com/img/hubble/stephans_quintet_2800.jpg",
+    img2="https://www.webbcompare.com/img/webb/stephans_quintet_2800.jpg",
+    label1="Hubble",
+    label2="Webb",
+)
+
+
