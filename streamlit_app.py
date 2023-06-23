@@ -5,13 +5,7 @@ import cv2
 
 st.set_page_config("Webb Space Telescope vs Hubble Telescope", "🔭")
 
-
-st.image(
-    "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/telescope_1f52d.png",
-    width=120,
-)
-
-st.header("J. Webb Space Telescope vs Hubble Telescope")
+st.header("🔭 J. Webb Space Telescope vs Hubble Telescope")
 
 st.write("")
 "This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"

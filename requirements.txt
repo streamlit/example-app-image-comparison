@@ -1,2 +1,3 @@
 streamlit 
 streamlit-image-comparison
+opencv-python-headless
